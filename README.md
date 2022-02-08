@@ -16,5 +16,7 @@ To understand what this is trying to achieve, read https://jacquesbernier.medium
 
 ### Get Started
 
+https://github.com/jacquesbernier/fair9/blob/c3dac0bd88b0db61cd63a02911dab7913ec69c55/retry/example_test.go#L1-L6
+
 
 
