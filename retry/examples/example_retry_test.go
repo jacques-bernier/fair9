@@ -8,7 +8,7 @@ import (
 	"github.com/jacquesbernier/fair9/retry"
 )
 
-func ExampleFoo() {
+func ExampleRetry() {
 	retrier := retry.NewRetry(retry.WithRefillEvery(99), retry.WithMaxTokenBalance(1))
 
 	ctx := context.TODO()
