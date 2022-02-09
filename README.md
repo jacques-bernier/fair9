@@ -1,4 +1,5 @@
 # fair9
+[![Go](https://github.com/jacquesbernier/fair9/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/jacquesbernier/fair9/actions/workflows/go.yml)
 
 ## fair9/retry
 
@@ -18,7 +19,7 @@ To understand what this is trying to achieve, read https://jacquesbernier.medium
 
 ### Get Started
 
-https://github.com/jacquesbernier/fair9/blob/c3dac0bd88b0db61cd63a02911dab7913ec69c55/retry/example_test.go#L1-L6
+https://github.com/jacquesbernier/fair9/blob/52ca3151c50540be2b01c719919e6fe18d8d76e8/retry/examples/example_retry_test.go#L1-L42
 
 
 ### Other libraries
