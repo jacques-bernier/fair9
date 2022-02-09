@@ -56,7 +56,11 @@ type retrier struct {
 func (r *retrier) Execute(ctx context.Context, op func(context.Context) error) error {
 	err := op(ctx)
 	// TODO check is the error is retriable using a function provided by the user.
+	// TODO add max attempts as a feature to prevent a single call to execute from consuming all tokens
 	if err != nil {
+		if ctx.Err() != nil {
+			return err
+		}
 		newBalance := atomic.AddInt64(&r.retryTokenBalance, -1)
 		if newBalance >= 0 {
 			return r.Execute(ctx, op)
