@@ -1,6 +1,6 @@
 # fair9
 
-## fair9/Retry
+## fair9/retry
 
 Idiomatic retry library that respects a retry budget.
 
