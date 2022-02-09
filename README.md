@@ -19,7 +19,7 @@ To understand what this is trying to achieve, read https://jacquesbernier.medium
 
 ### Get Started
 
-https://github.com/jacquesbernier/fair9/blob/52ca3151c50540be2b01c719919e6fe18d8d76e8/retry/examples/example_retry_test.go#L1-L42
+https://github.com/jacquesbernier/fair9/blob/c226e82bc45237fcabcf201810cdb38785956d2f/retry/examples/example_retry_test.go#L1-L42
 
 
 ### Other libraries
