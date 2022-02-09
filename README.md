@@ -1,4 +1,5 @@
 # fair9
+[![Go](https://github.com/jacquesbernier/fair9/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/jacquesbernier/fair9/actions/workflows/go.yml)
 
 ## fair9/retry
 
